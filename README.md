@@ -13,7 +13,8 @@ Deploy: `Docker-desktop, minikube`
 --- 
 
 ### services:
-> classic-order-service
-> reactive-order-service
-> ktor-order-service
+> classic-order-service  
+> reactive-order-service  
+> ktor-order-service  
 
+# Enjoy!
