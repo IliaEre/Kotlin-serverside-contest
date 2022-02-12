@@ -7,7 +7,7 @@ val logback_version: String by project
 plugins {
     application
     kotlin("jvm") version "1.6.10"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.6.20-M1"
+    kotlin("plugin.serialization") version "1.6.10"
 }
 
 group = "com.ere.pkc"
@@ -19,21 +19,10 @@ application {
 
 repositories {
     mavenLocal()
-    jcenter()
-    maven { url = uri("https://kotlin.bintray.com/ktor") }
+    mavenCentral()
 }
 
 java.sourceCompatibility = JavaVersion.VERSION_1_8
-
-val compileKotlin: KotlinCompile by tasks
-val compileTestKotlin: KotlinCompile by tasks
-
-compileKotlin.kotlinOptions {
-    jvmTarget = "1.8"
-}
-compileTestKotlin.kotlinOptions {
-    jvmTarget = "1.8"
-}
 
 dependencies {
     implementation("io.ktor:ktor-metrics-micrometer:$ktor_version")
@@ -47,6 +36,7 @@ dependencies {
     implementation("org.litote.kmongo:kmongo-coroutine:4.4.0")
     testImplementation("io.ktor:ktor-server-tests:$ktor_version")
     testImplementation("io.mockk:mockk:1.12.2")
+    implementation(kotlin("stdlib-jdk8"))
 }
 
 kotlin.sourceSets["main"].kotlin.srcDirs("src")
@@ -54,3 +44,13 @@ kotlin.sourceSets["test"].kotlin.srcDirs("test")
 
 sourceSets["main"].resources.srcDirs("resources")
 sourceSets["test"].resources.srcDirs("testresources")
+
+val compileKotlin: KotlinCompile by tasks
+
+compileKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}
+val compileTestKotlin: KotlinCompile by tasks
+compileTestKotlin.kotlinOptions {
+    jvmTarget = "1.8"
+}

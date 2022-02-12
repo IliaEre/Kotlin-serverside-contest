@@ -13,8 +13,8 @@ import org.litote.kmongo.eq
 fun Application.routes(db: CoroutineDatabase) {
 
     routing {
-        route("/v1/order") {
-            
+        route("/v4/order") {
+
             get("/{name}") {
                 val name = call.parameters["name"]
                 if (name.isNullOrBlank()) {
