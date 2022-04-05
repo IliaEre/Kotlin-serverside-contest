@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pck.ere.com.plugins.ConfigureRoutingTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-05T07:11:32" hostname="Ilyas-MacBook-Pro.local" time="4.406">
+  <properties/>
+  <testcase name="should not found order" classname="pck.ere.com.plugins.ConfigureRoutingTest" time="4.024"/>
+  <testcase name="should return order" classname="pck.ere.com.plugins.ConfigureRoutingTest" time="0.247"/>
+  <testcase name="should save new order" classname="pck.ere.com.plugins.ConfigureRoutingTest" time="0.135"/>
+  <system-out><![CDATA[2022-04-05 10:11:35.233 [Test worker] INFO  ktor.test - Autoreload is disabled because the development mode is off.
+2022-04-05 10:11:35.254 [Test worker] INFO  ktor.test - Application started in 0.103 seconds.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

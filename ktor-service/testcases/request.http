@@ -1,0 +1,20 @@
+POST http://localhost:8084/v4/order
+Content-Type: application/json
+
+{
+  "user": {
+    "name": "Igor",
+    "email": "some_email_here@mail.com"
+  },
+  "equity": {
+    "name": "APPL",
+    "orderName": "order",
+    "total": 13000
+  },
+  "side": "SELL",
+  "price": 1000.0
+}
+
+###
+GET http://localhost:8084/v4/order/88e4a5b1-a281-4faf-8be0-23687bf48f8c
+Content-Type: application/json
