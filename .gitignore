@@ -1,2 +1,11 @@
-/ktor-order-api/.gradle  
-/ktor-order-service/.gradle
+/ktor-service/.gradle 
+/ktor-service/build   
+/ktor-service/.idea
+
+/ktor-koin-service/.gradle
+/ktor-koin-service/build
+/ktor-koin-service/.idea
+
+/classic-service/.gradle
+/classic-service/build
+/classic-service/.idea
