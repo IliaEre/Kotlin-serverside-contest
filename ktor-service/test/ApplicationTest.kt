@@ -8,7 +8,7 @@ class ApplicationTest {
     @Test
     fun testRoot() {
         withTestApplication({ module(testing = true) }) {
-            handleRequest(HttpMethod.Get, "/").apply {
+            handleRequest(HttpMethod.Get, "/health").apply {
                 assertEquals(HttpStatusCode.OK, response.status())
             }
         }

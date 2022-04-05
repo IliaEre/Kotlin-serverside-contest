@@ -10,6 +10,7 @@ plugins {
     application
     kotlin("jvm") version "1.6.10"
     id("org.jetbrains.kotlin.plugin.serialization") version "1.6.10"
+    id ("com.google.cloud.tools.jib") version "3.2.1"
 }
 
 group = "pck.ere.com"

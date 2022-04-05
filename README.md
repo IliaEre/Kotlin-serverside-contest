@@ -1,4 +1,4 @@
-# Why Kotlin?
+# Why Kotlin and Ktor?
 
 ### version 0.0.3-SNAPSHOT
 
@@ -13,9 +13,11 @@ Deploy: `Docker-desktop, minikube, AWS`
 --- 
 
 ### services:
-> classic-order-service  (Spring web)  
-> reactive-order-service  (Spring webflux + native)  
-> ktor-order-service (Ktor)  
-> ktor-order-api   (Ktor + Koin)  
+> classic-service  (Spring web)  
+> reactive-service  (Spring webflux + native)  
+> ktor-service (Ktor)  
+> ktor-koin-api   (Ktor + Koin)  
+
+
 
 # Enjoy!

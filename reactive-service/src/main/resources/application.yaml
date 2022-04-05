@@ -1,0 +1,16 @@
+server:
+  port: 8086
+
+spring:
+  main:
+    banner-mode: off
+  data:
+    mongodb:
+      username: "supersecret"
+      password: "super-secret-password"
+      database: orders
+      authentication-database: "admin"
+      host: "localhost"
+      port: 27017
+  application:
+    name: reactive-service

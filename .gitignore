@@ -9,3 +9,7 @@
 /classic-service/.gradle
 /classic-service/build
 /classic-service/.idea
+
+/reactive-service/.gradle
+/reactive-service/build
+/reactive-service/.idea
