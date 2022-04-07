@@ -13,10 +13,10 @@ Deploy: `Docker-desktop, minikube, AWS`
 --- 
 
 ### services:
-> `classic-service` (Spring web)  
-> `reactive-service` (Spring webflux + native)   
-> `ktor-service` (Ktor)     
-> `ktor-koin-api` (Ktor + Koin)  
+`classic-service` (Spring web)  
+`reactive-service` (Spring webflux + native)   
+`ktor-service` (Ktor)     
+`ktor-koin-api` (Ktor + Koin)  
 
 | service             | jar size | plain jar size  | aot jar size  | Jib image | SB image | startup time |   
 | ------------------- | -------- | --------------- | ------------- | --------- | -------- | ------------ |
