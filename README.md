@@ -18,7 +18,7 @@ Deploy: `Docker-desktop, minikube, AWS`
 > `ktor-service (Ktor)`    
 > `ktor-koin-api (Ktor + Koin)`  
 
-| service             | jar size | plain jar size  | aot jar size  | Jib image | SB image | Startup time |   
+| service             | jar size | plain jar size  | aot jar size  | Jib image | SB image | startup time |   
 | ------------------- | -------- | --------------- | ------------- | --------- | -------- | ------------ |
 | `classic-service`   | 30,6 MB  | 25 KB           | X             | 300MB     | 286MB    |              |
 | `reactive-service`  | 35,7 MB  | 25 KB           | 135 KB        | 304MB     | 304MB    |              |
