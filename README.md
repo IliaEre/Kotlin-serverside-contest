@@ -2,7 +2,7 @@
 
 ### version 0.0.3-SNAPSHOT
 
-Technologies which like to use:  
+Technologies:  
 Languages: `Kotlin`  
 Frameworks: `Spring boot, Spring boot webflux, Ktor, Koin`  
 Libraries: `Kmongo, Reactive Mongo, Spring data`  
